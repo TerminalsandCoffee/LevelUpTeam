@@ -7,6 +7,8 @@ services.append('Lambda')
 services.append('EC2')
 services.append('DynamoDB')
 
+#Using concataenation
+services = ['S3'] + ['Lambda'] + ['EC2'] + ['DynamoDB']
 
 #Print the list and its length
 print("List of services:", services)
@@ -33,3 +35,6 @@ services.pop(2)
 # Print the new list and its length
 print("New list of services:", services, '\n')
 print("New length of services list:", len(services))
+
+
+#brought to you by: raffycodes
