@@ -1,0 +1,11 @@
+message = input("Please enter a message: ")
+
+print("First Character:", message[0])
+print("First Character:", message[-1])
+print("Middle Character:", message[int(len(message) / 2)])
+
+
+#print the even and odd index
+print("even index characters", message[0::2])
+print("odd index characters", message[1::2])
+print("reversed message:", message[::-1])
